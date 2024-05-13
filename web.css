@@ -1,0 +1,138 @@
+html{
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+}
+body{
+    background: linear-gradient(180deg, #03516f, #413a3a);
+}
+em{
+    color: rgb(177 177 177);
+}
+h1{
+    color: rgb(10, 41, 99);
+    text-align: right;
+    font-size: 150px;
+    text-shadow: 20px 20px black;
+    margin-right: 330px;
+    margin-top: 0px;
+}
+#title {
+    position: relative;
+    z-index: 1; /* Ensure the title is above the image */
+}
+#img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0; /* Place the image behind the title */
+    background-color: aqua;
+    width: 100%;
+    height: 30%;
+}
+#cinemaimg{
+    width: 100%;
+    height: 100%;
+    border: solid;
+}
+
+.li{
+    display: inline;
+    background-color: rgb(118, 118, 170);
+    width: 150px;
+    height: 150px;
+    margin: 35px auto;
+    padding: 30px;
+    border-radius: 30px;
+    transition: 0.2s;
+    align-items: end;
+}
+/* Specify background images for each list item */
+.li1:nth-child(1) {
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/e/e1/Spider-Man_PS4_cover.jpg');
+    background-size: cover;
+}
+.li1:nth-child(2) {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo6YXxVGAU8_6xxI4lhF2nk13ietpcIImJN8XHnSyn8A&s');
+    background-size: cover;
+    background-position-x: center;
+}
+.li1:nth-child(3) {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3XrpMF5jp4ME4XgIMKSCL6mZ1lnEEdRAKmyEp-hSgcg&s');
+    background-size: cover;
+}
+.li1:nth-child(4) {
+    background-image: url('https://i.ebayimg.com/images/g/K-QAAOSw6T9axxZo/s-l1200.webp');
+    background-size: cover;
+}
+.li:hover{
+    padding: 40px;
+    
+}
+.li2:nth-child(1){
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3B3zgXTgbUSYch_NuXUR6-sv_hyyMJ6fjwfO1vDe1tg&s");
+    background-size: cover;
+}
+.li2:nth-child(2){
+    background-image: url("https://m.media-amazon.com/images/I/A1JVqNMI7UL._AC_UF350,350_QL50_.jpg");
+    background-size: cover;
+}
+.li2:nth-child(3){
+    background-image: url("https://leganerd.com/wp-content/uploads/2020/09/the-batman-key-art-1236846.jpeg");
+    background-size: cover;
+}
+.li2:nth-child(4){
+    background-image: url("https://i5.walmartimages.com/dfw/4ff9c6c9-768f/k2-_527540bc-3cd9-4828-ad6b-bf6c0899abbb.v1.jpg");
+    background-size: cover;
+}
+h2{font-size: xxx-large;
+    margin:50px 0 50px 40%;
+}
+.ul{
+    display: flex;
+    background-color: rgb(56 57 63);
+    border-top: solid 30px;
+    border-bottom: solid 30px;
+    margin: -13px;
+}
+
+.link{
+    margin-left: 0;
+    display: inline;
+    color: rgb(187 187 187);
+    text-decoration: none;
+}
+#links{
+    display: flex;
+    margin: -50px auto 30px;
+}
+#details{
+    display: flex;
+    height: 28px;
+    background-color: rgb(56 57 63);
+    margin-top: -61px;
+    margin-left: -140px;
+}
+
+.output{
+    display: inline-flex;
+    height: 28px;
+    width: auto;
+    background-color: rgb(56 57 63);
+    color: #c9d1d7;
+    margin: auto auto auto 228px;
+}
+section{
+    background-color: #36353b;
+    border: solid 10px;
+    border-radius: 30px;
+    margin: auto;
+    padding: 15px;
+    transition: 0.2s;
+}
+section:hover{
+    padding: 30px;
+}
